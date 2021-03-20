@@ -95,4 +95,50 @@ hr {
 }
 .main_body img{
     width: 100%;
+}
+p{
+    width: 80%;
+    color: rgb(63, 63, 66);
+    overflow-wrap: break-word;
+}
+.more_text {
+    color: rgb(63, 63, 66);
+}
 
+.more_text li a {
+    color: rgb(63, 63, 66);
+    font-weight: bold;
+}
+.more_text li a:hover {
+    color: #bb1919;
+}
+
+footer{
+    color: rgb(255, 255, 255);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    background-color:  rgb(40, 40, 40);
+}
+
+
+footer li{
+    display: inline;
+    list-style: none;
+}
+footer ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+footer li a {
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 60px 16px;
+    display: inline;
+    text-decoration: none;
+
+}
