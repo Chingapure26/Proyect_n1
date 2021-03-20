@@ -1,7 +1,7 @@
 
 body{
-    margin: 0;
-    padding: 0;
+    margin:0;
+    padding:0;
     background-color: rgb(255, 255, 255);
     text-size-adjust: none;
     display: block;
@@ -10,20 +10,15 @@ body{
 header {
     font-family: inherit;
     color: rgb(255, 255, 255);
-
     align-items: center;
     
 }
 
 .head{
-    
     text-transform: uppercase;
     cursor: pointer;
-    background: #bb1919;;
+    background: #bb1919;
     line-height: 1;
-    
-    
-    
 }
 
 .head_list {
@@ -37,7 +32,7 @@ header {
 }
 .head_list li a{
     display: block;
-   text-align: center;
+    text-align: center;
     padding: 60px 16px;
     display: inline;
 }
@@ -53,8 +48,51 @@ h2{
     margin-inline-end: 0px;
     
 }
+h1{
+    font-size: 2.75rem;
+    line-height: 3rem;
+    color: rgb(63, 63, 66);
+}
+h4{
+    font-size: 1.2rem;
+    color: rgb(63, 63, 66);
+}
+h5{
+    font-size: 1rem;
+    color: rgb(105, 105, 105);
+}
 hr {
     color:white;
     size: 1 px;
 
 }
+.colum_1{
+    display: block;
+    float: right;
+    width: 20%;
+    font-weight:500;
+    color: rgb(63, 63, 66);
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    margin-right: 100px;
+}
+.content_colum_1 a{
+    color: rgb(63, 63, 66);
+    text-decoration: none;
+    text-align:right
+}
+
+.content_colum_1 a:hover {
+    color: #bb1919;
+    text-decoration: underline;
+}
+
+.main_body{
+    display: block;
+    width: 60%;
+    margin-left: 40px;
+
+}
+.main_body img{
+    width: 100%;
+
