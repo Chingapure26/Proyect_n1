@@ -47,7 +47,7 @@ header {
     display: inline;
 }
 .head_list li:hover{
-    text-decoration:underline;
+    text-decoration:underline 3px;
 }
 h2{
     display: block;
@@ -106,10 +106,15 @@ hr {
 .main_body img{
     width: 100%;
 }
-p{
-    width: 80%;
-    color: rgb(63, 63, 66);
+.main_body p{
+     color: rgb(63, 63, 66);
     overflow-wrap: break-word;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 100%;
 }
 .more_text {
     color: rgb(63, 63, 66);
@@ -155,4 +160,31 @@ footer li a {
 span{
     font-size: 30px;
     margin-left: 40px;
+}
+
+.cuerpo_enlaces a {
+    border-bottom: none;
+    text-decoration: underline 1px rgb(186, 186, 186);
+    text-decoration-skip-ink: none;
+    text-underline-offset: 0.25em;
+    font-weight: bold;
+    color:rgb(63, 63, 66) ;
+}
+
+.cuerpo_enlaces a:hover{
+    color: #bb1919;
+}
+
+.main_body h6{
+    line-height:normal;
+    font-size: 25px;
+    
+    color: rgb(63, 63, 66)
+}
+h3{
+    text-decoration: underline 3px ;
+    line-height: 2rem;
+}
+.main_body li{
+    color:rgb(63, 63, 66)
 }
